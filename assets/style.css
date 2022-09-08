@@ -8,7 +8,6 @@ body {
 }
 header {
     padding: 20px;
-
     top: 0;
     left: 0;
     width: 100%; 
@@ -19,5 +18,7 @@ header {
 #display{
     display:flex;
    
-    
+}
+.secDiv{
+    padding: 5px;
 }
