@@ -15,11 +15,3 @@ header {
     text-align: center;
     background-color: blueviolet;
 }
-#display{
-    display:flex;
-   
-}
-.secDiv{
-    padding: 10px;
-    display:block
-}

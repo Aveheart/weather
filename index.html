@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="./assets/style.css">
     <title>weather dashboard</title>
 </head>
@@ -13,21 +13,56 @@
     <header>
     <h1>Weather Dashboard</h1>
     </header>
+    <main class="flex-row justify-space-between">
+        <div class="col-12 col-sm-12 col-md-4 float-left">
+            
+            <div class="card">
+                <h2 cardHeader>Search for a City</h2>
+                <div id="userForm" class="cardBody">
+                    <input type="text" id="myinpt">
+                    <button class="btn" id="searchBtn">Search</button>
+                </div>
+            </div>
 
-    <div class="secDiv">
+            <div class="cardHistory">
+                <h2 class="cardHeader">Search History</h2>
+            </div>
+        </div> 
+        
+        <div class="col-12 col-sm-12 col-md-8 float-right">
+            <div>
+                <h2>current weather</h2>
+                <div class="city"></div>
+            </div>
+
+            <div>
+                <h2>5 day forecast</h2>
+                <div class="fiveDay"></div>
+            </div>
+        </div>
+    </main>
+           
+           
+           
+           
+           
+           
+            <!-- <div class="secDiv">
         <h2 id="srchTitle">Search for a City:</h2>
-    </div>
+        </div>
     <div class="secDiv"> 
         <input type="text" id="inpt" placeholder="search city">
     </div>
     <div class="secDiv">
         <button type="submit" id="searchBtn" class="btn">Search</button>
     </div>
-    <div id="page2"></div>
+    <ul id="saved"></ul>
+    <div id="page2"></div> -->
     
 
 
     
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="./assets/script.js"></script>
 </html>
