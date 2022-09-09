@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     height: 100vh;
@@ -14,4 +15,31 @@ header {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     background-color: blueviolet;
+}
+
+.btn {
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 6px 5px;
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+    border-radius: 0.3rem;
+    border: none;
+    outline: none;
+    background-color: lightblue;
+}
+
+#myinpt{
+    font-size: 1.3rem;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+    border-radius: 0.3rem;
+   background-color: white;
+}
+
+.five-day {
+    display:flex;
 }
