@@ -10,31 +10,35 @@
     <link rel="stylesheet" href="./assets/style.css" />
     <title>weather dashboard</title>
 </head>
-<body>
+<body class="flex-column min-100-vh">
     <header id="titlepage">
         <h1>Weather Dashboard</h1>
     </header>
-<main class="flex-row justify-space-between">
-    <div class="col-12 col-sm-12 col-md-8 float-left">
-    <div class="card" id="searchform">
+<main class=" justify-space-between">
+    
+    <div class="col-12 col-sm-12 col-md-4 float-left">
+      <div class="card" id="searchform">
         <h2>Search for a City</h2>
         <form class="submitForm">
             <input type="text" id="input" placeholder="search a city">
             <button type="submit" id="submitBtn">Search</button>
         </form>
-    </div>
+      </div>
     <div class="card" id="recentCity">
         <h2>Recent Searches</h2>
         <p><span id="saveCity"></span></p>
+      </div>
     </div>
-    </div>
-    <div class="col-12 col-sm-12 col-md-8 float-right">
-    <div class="card" id="weather">
+  
+    <div class="col-12 col-sm-12 col-md-6 float-right">
+     <div class="card2" id="weather">
         <h2>Current Weather</h2>
-    </div>
-    <div class="card" id="fiveDay">
+        <p class="city"></p>
+     </div>
+     <div class="card2">
         <h2>5 Day Forecast</h2>
-    </div>
+        <p class="fiveday"></p>
+     </div>
     </div>
 
 </main>

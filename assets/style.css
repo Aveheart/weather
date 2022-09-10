@@ -3,10 +3,10 @@
 
 }
 body{
-    display: block;
+    
 }
 
-/* .card{background-color: #FFFFE0;
+.card{background-color: #FFFFE0;
     border: 1px solid #eceff1;
     border-radius: 8px;
     box-shadow: rgb(60 64 67) 0 1px 2px 0, rgb(60 64 67 / 15%) 0 2px 4px 3px;
@@ -14,9 +14,30 @@ body{
     padding: 20px;
     width: 40vw;
 }
-#weather{
-    float:right;
+.card2{
+    background-color: #FFFFE0;
+    border: 1px solid #eceff1;
+    border-radius: 8px;
+    box-shadow: rgb(60 64 67) 0 1px 2px 0, rgb(60 64 67 / 15%) 0 2px 4px 3px;
+    margin: 40px 20px;
+    padding: 20px;
+    width: 40vw;
+    display: none;   
 }
-#fiveDay{
-    float:right;
-} */
+
+#submitBtn{
+    
+        font-size: 1.3rem;
+        text-decoration: none;
+        padding: 6px 5px;
+        width: 100%;
+        display: block;
+        margin: 5px 0;
+        border-radius: 0.3rem;
+        color: blue;
+        border: none;
+        outline: none;
+        background-color: darkblue;
+        box-shadow: 3px 3px black;
+        transform: translate(-1px, -1px);
+}
