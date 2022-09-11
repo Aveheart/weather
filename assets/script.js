@@ -28,31 +28,32 @@ fetch(api)
     console.log(data.main.humidity)
     console.log(data.wind.speed)
 
-   box.style.border='1px solid';
+//    box.style.border='1px solid';
 
-   var title = document.createElement("h2")
-   title.textContent = "Current Weather"
-   box.append(title)
+//    var title = document.createElement("h2")
+//    title.textContent = "Current Weather"
+//    box.append(title)
 
    var name = document.createElement("h3")
    name.textContent = data.name
    box.append(name)
 
    var temp = document.createElement('p')
-   temp.textContent = "Temp: " +data.main.temp
+   temp.textContent = "Temp: " +data.main.temp + "F"
    box.append(temp)
 
    var humidity = document.createElement('p')
-   humidity.textContent = "RH: " + data.main.humidity
+   humidity.textContent = "RH: " + data.main.humidity + "%"
    box.append(humidity)
 
    var windSpeed = document.createElement('p')
-   windSpeed.textContent = "wind speed: " + data.wind.speed
+   windSpeed.textContent = "wind speed: " + data.wind.speed + "mph"
    box.append(windSpeed)
 })
-
-
-
+// local storage for cities searched and display
+// when clicked on again, info displays again
+// display 5 day forcast
+// uv
 
 }
 //EVENT LISTENER FOR SEARCH

@@ -7,11 +7,12 @@ body{
 }
 header{
     background-color: purple;
-    height:200px;
+    height:100px;
 }
 h1{
-    font-size: 40;
+    font-size: 60;
     text-align: center;
+    padding: 15px;
 
 }
 .card{background-color: #FFFFE0;
@@ -23,14 +24,22 @@ h1{
     width: 40vw;
 }
 .box{
-    background-color: white;
+    background-color: #FFFFE0;
     border: 1px solid white;
     border-radius: 8px;
     box-shadow: rgb(60 64 67) 0 1px 2px 0, rgb(60 64 67 / 15%) 0 2px 4px 3px;
     margin: 40px 20px;
     padding: 20px;
     width: 40vw;
-  
+}
+.card2{
+    background-color: #FFFFE0;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: rgb(60 64 67) 0 1px 2px 0, rgb(60 64 67 / 15%) 0 2px 4px 3px;
+    margin: 40px 20px;
+    padding: 20px;
+    width: 40vw;
 }
 
 #submitBtn{
