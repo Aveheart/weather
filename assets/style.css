@@ -2,9 +2,7 @@
     margin:0;
 
 }
-body{
-    
-}
+
 header{
     background-color: purple;
     height:100px;
@@ -21,7 +19,7 @@ h1{
     box-shadow: rgb(60 64 67) 0 1px 2px 0, rgb(60 64 67 / 15%) 0 2px 4px 3px;
     margin: 40px 20px;
     padding: 20px;
-    width: 40vw;
+
 }
 .box{
     background-color: #FFFFE0;
@@ -30,9 +28,9 @@ h1{
     box-shadow: rgb(60 64 67) 0 1px 2px 0, rgb(60 64 67 / 15%) 0 2px 4px 3px;
     margin: 40px 20px;
     padding: 20px;
-    width: 40vw;
+   
 }
-.card2{
+/* .card2{
     background-color: #FFFFE0;
     border: 1px solid white;
     border-radius: 8px;
@@ -40,7 +38,7 @@ h1{
     margin: 40px 20px;
     padding: 20px;
     width: 40vw;
-}
+} */
 
 #submitBtn{
     
@@ -54,7 +52,38 @@ h1{
         color: black;
         border: none;
         outline: none;
-        background-color: lightskyblue;
-        box-shadow: 3px 3px blue;
+        background-color: rgb(159, 67, 186);
+        box-shadow: 3px 3px rgb(86, 16, 81);
         transform: translate(-1px, -1px);
+}
+.square{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    color: black;
+    font-size: 10px;
+
+    /* contain: content; */
+    box-shadow: 5px 10px;
+    /* background-color: #FFFFE0;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: rgb(60 64 67) 0 1px 2px 0, rgb(60 64 67 / 15%) 0 2px 4px 3px;
+    margin: 40px 20px;
+    padding: 20px;
+    width: 20vw;
+   float: left; */
+}
+.fiveDay{
+    display: flex;
+    flex-direction: row;
+    padding-left:0px;
+   
+    
+}
+div {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
