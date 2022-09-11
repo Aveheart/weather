@@ -14,7 +14,6 @@ h1{
     text-align: center;
 
 }
-
 .card{background-color: #FFFFE0;
     border: 1px solid #eceff1;
     border-radius: 8px;
@@ -23,15 +22,15 @@ h1{
     padding: 20px;
     width: 40vw;
 }
-.card2{
-    background-color: #FFFFE0;
-    border: 1px solid #eceff1;
+.box{
+    background-color: white;
+    border: 1px solid white;
     border-radius: 8px;
     box-shadow: rgb(60 64 67) 0 1px 2px 0, rgb(60 64 67 / 15%) 0 2px 4px 3px;
     margin: 40px 20px;
     padding: 20px;
     width: 40vw;
-    display: none;   
+  
 }
 
 #submitBtn{
@@ -50,5 +49,3 @@ h1{
         box-shadow: 3px 3px blue;
         transform: translate(-1px, -1px);
 }
-
-#input{}

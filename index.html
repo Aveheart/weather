@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
-  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="./assets/style.css" />
     <title>weather dashboard</title>
@@ -30,18 +29,12 @@
       </div>
     </div>
   
-    <div class="col-12 col-sm-12 col-md-6 float-right">
-     <div class="card2" id="weather">
-        <h2>Current Weather</h2>
-        <p class="city"></p>
-     </div>
-     <div class="card2">
-        <h2>5 Day Forecast</h2>
-        <p class="fiveday"></p>
-     </div>
-    </div>
+    <div class="display col-12 col-sm-12 col-md-6 float-right">
+     <div class="box" id="weather"></div>
+     <div class="card2" id="fiveDay"></div>
 
 </main>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="./assets/script.js"></script>
 </body>
 </html>
