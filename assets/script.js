@@ -50,10 +50,13 @@ fetch(api)
    windSpeed.textContent = "wind speed: " + data.wind.speed + "mph"
    box.append(windSpeed)
 })
+// when search another city, current weather updates to new search and clears old search
 // local storage for cities searched and display
 // when clicked on again, info displays again
 // display 5 day forcast
 // uv
+
+
 
 }
 //EVENT LISTENER FOR SEARCH
