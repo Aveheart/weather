@@ -30,15 +30,7 @@ h1{
     padding: 20px;
    
 }
-/* .card2{
-    background-color: #FFFFE0;
-    border: 1px solid white;
-    border-radius: 8px;
-    box-shadow: rgb(60 64 67) 0 1px 2px 0, rgb(60 64 67 / 15%) 0 2px 4px 3px;
-    margin: 40px 20px;
-    padding: 20px;
-    width: 40vw;
-} */
+
 
 #submitBtn{
     
@@ -53,7 +45,7 @@ h1{
         border: none;
         outline: none;
         background-color: rgb(159, 67, 186);
-        box-shadow: 3px 3px rgb(86, 16, 81);
+        box-shadow: 3px 3px rgb(44, 13, 42);
         transform: translate(-1px, -1px);
 }
 .square{
@@ -63,24 +55,13 @@ h1{
     margin: 10px;
     color: black;
     font-size: 10px;
-
-    /* contain: content; */
     box-shadow: 5px 10px;
-    /* background-color: #FFFFE0;
-    border: 1px solid white;
-    border-radius: 8px;
-    box-shadow: rgb(60 64 67) 0 1px 2px 0, rgb(60 64 67 / 15%) 0 2px 4px 3px;
-    margin: 40px 20px;
-    padding: 20px;
-    width: 20vw;
-   float: left; */
+   
 }
 .fiveDay{
     display: flex;
     flex-direction: row;
-    padding-left:0px;
-   
-    
+    padding-left:0px;   
 }
 div {
     padding: 10px;

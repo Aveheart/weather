@@ -67,7 +67,7 @@ fetch(api)
 // when clicked on again, info displays again
 // display 5 day forcast
 // uv
-var uv = 'https://api.openweathermap.org/data/2.5/onecall?lat=' + data.coord.lat + '&lon=' + data.coord.lon + '&exclude=hourly,minutely,alerts&units=imperial&appid=cfe0b2658aec5af16bf8115cfd986eca'
+var uv = 'https://api.openweathermap.org/data/2.5/onecall?lat=' + data.coord.lat + '&lon=' + data.coord.lon + '&exclude=hourly,minutely,alerts&units=imperial&appid=9b35244b1b7b8578e6c231fd7654c186';
 console.log(uv)
 
 fetch(uv)
